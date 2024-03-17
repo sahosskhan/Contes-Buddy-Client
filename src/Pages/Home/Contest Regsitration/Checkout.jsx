@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import CheckoutCard from "./CheckoutCard";
+import { Helmet } from "react-helmet-async";
 const stripePromise = loadStripe(import.meta.env.VITE_Payment_Gateway_PK);
 
 const Checkout = () => {
@@ -10,6 +11,9 @@ const Checkout = () => {
   const {nameContest, imageContest, price, yourName, yourEmail}= data;
     return (
         <div className="">
+          <Helmet>
+        <title>{nameContest} Checkout | Contes Buddy</title>
+      </Helmet>
         <div className="min-h-screen flex  flex-col justify-center items-center">
 <div className=" flex lg:w-1/2 md:w-1/2 w-full flex-col justify-start items-start text-red-500  px-20 py-10 bg-red-50 ">
 <div className='text-2xl font-semibold flex lg:flex-row md:flex-col flex-col justify-center items-center gap-2'>

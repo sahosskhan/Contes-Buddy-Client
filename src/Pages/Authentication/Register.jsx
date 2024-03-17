@@ -8,6 +8,7 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../Authentication/AuthProvider";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 const Register = () => {
     const axiosPublic = useAxiosPublic();
@@ -81,6 +82,9 @@ const Register = () => {
 
     return (
         <div>
+            <Helmet>
+        <title>Registration | Contes Buddy</title>
+      </Helmet>
             <div className="flex justify-center text-2xl mb-10 mt-5 items-center py-4 overflow-x-auto whitespace-nowrap">
                 <Link to="/" className="text-gray-600 dark:text-gray-200">
                     Home

@@ -30,6 +30,7 @@ import Book from "../Pages/More Page/Book";
 import Refund from "../Pages/More Page/refund";
 import Privacy from "../Pages/More Page/Privacy";
 import Guide from "../Pages/More Page/Guide";
+import Leaderboard from "../Pages/Leaderboard/Leaderboard";
 
 export const router = createBrowserRouter([
     {
@@ -76,6 +77,10 @@ export const router = createBrowserRouter([
 {
   path: "/community-guideline",
   element: <Guide/>,
+},
+{
+  path: "/leaderboard",
+  element: <Leaderboard/>,
 },
         {
           path: "/single-contest/:id",

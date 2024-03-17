@@ -26,7 +26,7 @@ const Stats = () => {
     }, [activeUsers, followers, experience]);
 
     return (
-        <div>
+        <div data-aos="zoom-in">
                     <h1 className="text-center text-5xl my-10 font-bold">Our <span className="text-red-500">Impact</span>   _!</h1>
             <section className="p-6 dark:bg-gray-800 dark:text-gray-100">
                 <div className="container mx-auto grid justify-center grid-cols-2 text-center lg:grid-cols-3">

@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import SubUserMange from "./SubUserMange";
+import { Helmet } from "react-helmet-async";
 
 
 const ManageUser = () => {
@@ -43,6 +44,9 @@ const ManageUser = () => {
   return (
 <>
         <div className='container mx-auto px-4 sm:px-8'>
+        <Helmet>
+        <title>User Management | Contes Buddy</title>
+      </Helmet>
 <h1 className="text-3xl text-center"><i className="fa-solid fa-users"></i> Total User: <span className="text-red-500">{users.length}</span> </h1>
 
           <div className='py-8'>

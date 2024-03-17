@@ -27,7 +27,7 @@ const Accordion = () => {
             <h1 className="text-center text-5xl mt-24 mb-10 font-bold">Most <span className="text-red-500">Frequently</span> Asked <span className="text-red-500"> Question</span> _?</h1>
             <div className=" rounded-lg font-sans mb-24">
         {accordionsData .map((PerAccordion, idx) => (
-          <div key={idx} className="border-b border-black ">
+          <div  data-aos="zoom-in-up" key={idx} className="border-b border-black ">
             <button onClick={() => toggle(idx)} className="flex h-full w-full items-center justify-between py-4 font-medium text-black">
               <span className="text-2xl">{PerAccordion.title}</span>
               <span className="rounded-full p-2 ">

@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
 import useUserData from "../../../Hooks/useUserData";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const EditContest = () => {
     const navigate = useNavigate()
@@ -110,6 +111,9 @@ fetch(
   
     return (
         <>
+        <Helmet>
+        <title>Edit Contest | Contes Buddy</title>
+      </Helmet>
     <div className='w-full min-h-[calc(100vh-40px)] flex flex-col justify-center items-center text-gray-800 rounded-xl bg-gray-50'>
     <h1 className="text-3xl my-5 text-center bg-red-500 py-2 px-6 text-white rounded-lg"> <span className="text-black">{nameString},</span> Edit Your Contest Here </h1>
       <form onSubmit={handleSubmit(onSubmit)}>

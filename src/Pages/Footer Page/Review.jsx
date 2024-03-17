@@ -52,7 +52,7 @@ const Review = () => {
                     </button>
                 </div>
                 {/* slider container */}
-                <div
+                <div  data-aos="zoom-in-up"
                     className="ease-linear duration-300 flex"
                     style={{transform: `translateX(-${currentSlider * (isSmallScreen ? 100 : 50)}%)`}}>
                     {/* sliders */}

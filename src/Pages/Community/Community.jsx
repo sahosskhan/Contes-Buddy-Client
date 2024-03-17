@@ -6,6 +6,7 @@ import AllPost from "./AllPost";
 import useCommunity from "../../Hooks/Contest/useCommunity";
 import imgNo from '../../assets/placeholder.jpg'
 import Container from "../../Components/Container";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -26,7 +27,9 @@ const Community = () => {
 
     return (
 <div>
-
+<Helmet>
+        <title>Community | Contes Buddy</title>
+      </Helmet>
 <Container>
 
 <section className="" onClick={() => setIsOpen(true)}>

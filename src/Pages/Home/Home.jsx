@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Container from "../../Components/Container";
 import Accordion from "../Footer Page/Accordion";
 import Review from "../Footer Page/Review";
@@ -9,12 +10,16 @@ import Slider from "./Slider/Slider";
 const Home = () => {
     return (
 <>
+<Helmet>
+        <title>Home | Contes Buddy</title>
+      </Helmet>
 <Container>
-<Slider/></Container>
+<Slider/>
 <Stats/>
 <PopularContest/>
 <Accordion/>
 <Review/>
+</Container>
 </>
     );
 };

@@ -11,7 +11,7 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 ## Preview: 
 ## [ Client Side Preview](https://contes-buddy.web.app)
 
-## [ Server Side Preview](contes-buddy-server.vercel.app)
+## [ Server Side Preview](https://contes-buddy-server.vercel.app)
 
  # Admin Dashboard:
 ## Email: admin@contes-buddy.com

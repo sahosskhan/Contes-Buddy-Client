@@ -6,8 +6,8 @@ const CEOSay = () => {
 <section className="bg-white dark:bg-gray-900">
   <div className="container px-6 py-10 mx-auto">
     <div className="lg:-mx-6 lg:flex lg:items-center">
-    <img className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://i.ibb.co/7R5nTW6/64d734b2-fbb1-456d-9a7e-117c710a0558.jpg" alt="client photo" />
-      <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
+    <img  data-aos="zoom-in-up"  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://i.ibb.co/7R5nTW6/64d734b2-fbb1-456d-9a7e-117c710a0558.jpg" alt="client photo" />
+      <div  data-aos="zoom-in-up"  className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
         <p className="text-5xl font-semibold text-red-500 ">“</p>
         <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl lg:w-96">
          What Our Founder Saying

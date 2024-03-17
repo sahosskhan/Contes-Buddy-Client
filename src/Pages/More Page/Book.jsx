@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import Container from "../../Components/Container";
 
 const Book = () => {
     return (
         <div>
+          <Helmet>
+        <title>Book For Contact | Contes Buddy</title>
+      </Helmet>
             <Container>
 <section className="bg-white dark:bg-gray-900">
   <div className="container flex items-center justify-center my-10 px-6 mx-auto">

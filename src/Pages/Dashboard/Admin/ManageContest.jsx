@@ -3,6 +3,7 @@ import useMyContest from "../../../Hooks/Contest/useMyContest";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import Loader from "../../../components/Loader";
 import SubManage from "./SubManage";
+import { Helmet } from "react-helmet-async";
 
 const ManageContest = () => {
     const axiosSecure = useAxiosSecure();
@@ -76,6 +77,9 @@ const ManageContest = () => {
     }
     return (
         <>
+        <Helmet>
+        <title>Contest Management | Contes Buddy</title>
+      </Helmet>
         <div className='container mx-auto px-4 sm:px-8'>
         <h1 className="text-3xl text-center"><i className="fa-regular fa-rectangle-list"></i> Total Contest: <span className="text-red-500">{myContest.length}</span> </h1>
       <div className='py-8'>

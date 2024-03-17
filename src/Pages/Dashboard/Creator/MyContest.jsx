@@ -4,6 +4,7 @@ import useAuth from "../../../Hooks/useAuth";
 import Loader from "../../../components/Loader";
 import SingleContest from "./SingleContest";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet-async";
 
 const MyContest = () => {
     const {user} = useAuth()
@@ -61,6 +62,9 @@ const handleDelete = (id) => {
 
     return (
         <>
+        <Helmet>
+        <title>My Listing | Contes Buddy</title>
+      </Helmet>
             <div className='container mx-auto px-4 sm:px-8'>
           <div className='py-8'>
             <div className='-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto'>

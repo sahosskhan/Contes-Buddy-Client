@@ -9,7 +9,7 @@ const About = () => {
                 <p className="max-w-7xl mx-auto mt-12 text-2xl text-center "><q>Welcome to Contes Buddy, your ultimate destination for all things gaming contests!</q></p>
             </div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-                <div>
+                <div  data-aos="zoom-in-up" >
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-red-500">Our Mission</h3>
                     <p className="mt-3 text-lg dark:text-gray-400">At Contes Buddy, we are passionate about gaming and fostering a vibrant community of gamers from around the world. Whether you are a seasoned pro or just starting your gaming journey, we are here to provide you with exciting opportunities to showcase your skills, compete against others, and win fantastic prizes.</p>
                     <div className="mt-12 space-y-12">
@@ -49,11 +49,11 @@ const About = () => {
                     </div>
                 </div>
                 <div aria-hidden="true" className="mt-10 lg:mt-0">
-                    <img src="https://i.ibb.co/PgHXZYW/image.png" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+                    <img  data-aos="zoom-in-up"  src="https://i.ibb.co/PgHXZYW/image.png" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
                 </div>
             </div>
             <div>
-                <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+                <div  data-aos="zoom-in-up"  className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                     <div className="lg:col-start-2">
                         <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-red-500">Our Vision</h3>
                         <p className="mt-3 text-lg dark:text-gray-400">Our platform is designed to bring together gamers of all backgrounds and interests, offering a diverse array of contests across various genres and platforms. From adrenaline-pumping multiplayer battles to cerebral strategy challenges, there is something for everyone at Contes Buddy.</p>
@@ -93,7 +93,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-                        <img src="https://i.ibb.co/WKb7m6t/l-18-1-1200x675.jpg" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+                        <img  data-aos="zoom-in-up"  src="https://i.ibb.co/WKb7m6t/l-18-1-1200x675.jpg" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
                     </div>
                 </div>
             </div>

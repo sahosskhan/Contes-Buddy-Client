@@ -9,7 +9,7 @@ const SortCard = ({items}) => {
     const descriptionSlice = descriptionMain.slice(0, 70);
     return (
         <Link to={`/single-contest/${_id}`}>
-        <div className="max-w-xl overflow-hidden bg-rose-50 rounded-lg shadow-lg ">
+        <div  data-aos="zoom-in-up" className="max-w-xl overflow-hidden bg-rose-50 rounded-lg shadow-lg ">
             <img className="object-cover w-full h-48" src={imageContest} alt="image" />
   <div className="px-2 py-3">
   <div className='absolute -mt-48 bg-white px-3 py-1 rounded-lg

@@ -3,6 +3,8 @@ import useAuth from './../../../Hooks/useAuth';
 import useSubmissionContest from './../../../Hooks/Contest/useSubmissionContest';
 import Loader from '../../../components/Loader';
 import CardAchieve from './CardAchieve';
+import { Helmet } from 'react-helmet-async';
+
 
 const Achievement = () => {
     const {user}=useAuth()
@@ -20,7 +22,9 @@ const Achievement = () => {
       }
     return (
         <div className="grid lg:grid-cols-2 gap-8 my-5">
-
+<Helmet>
+        <title>My Achievement | Contes Buddy</title>
+      </Helmet>
         {filterWin?.map((items) => (
        <CardAchieve key={items} items={items}></CardAchieve>
      ))}

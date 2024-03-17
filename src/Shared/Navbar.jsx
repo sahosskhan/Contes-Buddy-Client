@@ -15,7 +15,7 @@ const Navbar = () => {
           <NavLink   to='/all-contest'> <h1>All Contest</h1></NavLink>
           <NavLink  to='/community'> <h1>Community</h1></NavLink>
           <NavLink  to='/about'> <h1>About</h1></NavLink>
-          <NavLink  to='/about'> <h1>Learderboard</h1></NavLink>
+          <NavLink  to='/leaderboard'> <h1>Leaderboard</h1></NavLink>
            </div>
 
           </div>

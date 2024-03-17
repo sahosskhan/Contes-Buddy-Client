@@ -89,7 +89,7 @@ if (searchText !== "") {
                   Racing
                   </option>
                     </select>
-                    <h1 className="w-full bg-red-500 py-[13.5px] rounded-l-none px-5 text-center rounded-md text-white text-xl font-bold">Category</h1>
+                    <h1 className="w-full bg-red-500 py-[12.5px] rounded-l-none px-5 text-center rounded-md text-white text-xl font-bold">Category</h1>
                </div>
 
                  <div className="flex lg:w-[30%] md:w-[50%] w-[90%] ">

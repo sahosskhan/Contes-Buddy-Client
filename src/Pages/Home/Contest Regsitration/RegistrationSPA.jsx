@@ -5,6 +5,8 @@ import Container from "../../../Components/Container";
 import Swal from "sweetalert2";
 import useUserData from "../../../Hooks/useUserData";
 import { useForm } from "react-hook-form";
+import { Helmet } from "react-helmet-async";
+
 
 const RegistrationSPA = () => {
     const {user}=useAuth();
@@ -70,6 +72,11 @@ const emailString = emailFilter.join(', ');
 
     return (
         <div>
+
+<Helmet>
+        <title>{nameContest} Registration | Contes Buddy</title>
+      </Helmet>
+
            <Container>
           <div className='max-w-screen-lg mx-auto'>
             <div className='flex flex-col gap-6'>

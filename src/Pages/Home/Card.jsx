@@ -5,7 +5,7 @@ const Card = ({ContestFilter}) => {
 const {imageContest, nameContest, money, pcount,_id} = ContestFilter;
     return (
         <Link to={`/single-contest/${_id}`}>
-          <div className='flex flex-col gap-2 w-full '>
+          <div  data-aos="zoom-in-up" className='flex flex-col gap-2 w-full '>
 <div className='aspect-square w-full relative overflow-hidden rounded-xl'>
 <img className='object-cover h-full w-full group-hover:scale-110 transition' src={imageContest}
  alt='contest'/>

@@ -3,12 +3,16 @@ import TopSection from "./Contest Details/TopSection";
 import ContestInfo from "./Contest Details/ContestInfo";
 import Registration from "./Contest Details/Registration";
 import Container from '../../Components/Container'
+import { Helmet } from "react-helmet-async";
 
 const ContestSPA = () => {
     const data = useLoaderData();
     return (
     
       <Container>
+        <Helmet>
+        <title>Contest Info | Contes Buddy</title>
+      </Helmet>
           <div className='max-w-screen-lg mx-auto'>
             <div className='flex flex-col gap-6'>
               <TopSection data={data} />
