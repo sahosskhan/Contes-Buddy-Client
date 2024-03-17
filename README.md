@@ -42,7 +42,7 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 ### User Dashboard
 - Users can edit their profiles.
 - Users can participate in contests.
-- User can not participate in deadline expired contest, second times register contest, winner announce contest
+- User can not participate in deadline expired contest, second-time register contest, winner announces contest
 
 ### Community Section
 - Anyone can upload posts and view posts from others.
@@ -56,6 +56,9 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 ### Authentication
 - Firebase and JWT authentication for secure user authentication.
 
+### Leaderboard
+- On the Base Of the contest winner's total wining money this leaderboard ranks up and shows the top person. 
+
 
 
 ## Technology Used
@@ -65,12 +68,12 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 - **React Router DOM**: Declarative routing for React applications.
 - **Axios**: Promise-based HTTP client for making AJAX requests.
 - **Tailwind CSS**: A utility-first CSS framework packed with classes.
-- **React Hook From**: A react based performant, flexible and extensible forms with easy-to-use validation.
+- **React Hook From**: A react-based performant, flexible and extensible form with easy-to-use validation.
 - **AOS Animation**: A React Based Animation Tools
 
 ### Backend
 - **Node.js**: A JavaScript runtime for building server-side applications.
-- **Express.js**: Fast, un opinionated, minimalist web framework for Node.js.
+- **Express.js**: Fast, un-opinionated, minimalist web framework for Node.js.
 - **MongoDB**: A NoSQL database for storing application data.
 - **Mongoose**: An object modeling tool for MongoDB and Node.js.
 
