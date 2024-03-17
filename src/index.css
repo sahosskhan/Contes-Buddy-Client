@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your css */
+button.disabled {
+    cursor: not-allowed;
+    /* Optionally, you can add a ban icon as a background image */
+    /* background: url('path-to-your-ban-icon.png') center center no-repeat; */
+  }
+  
+  button.disabled:hover {
+    cursor: not-allowed;
+  }
+  #sidebar a.active {
+    color: red;
+  }
+  body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  
+  
