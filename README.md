@@ -1,7 +1,7 @@
 # Contest Hub - Gaming Contest Creation Platform
 
 ## Description
-Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to create and manage gaming contests. It provides a platform for administrators, contest creators, and users to efficiently manage and participate in contests. With features like user profile management, contest creation and management, community section, and secure payment methods, Contest Hub aims to be a comprehensive solution for organizing and participating in gaming contests.
+Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to create and manage gaming contests. It provides a platform for administrators, contest creators, and users to efficiently manage and participate in contests. With features like user profile management, contest creation and management, a community section, and secure payment methods, Contest Hub aims to be a comprehensive solution for organizing and participating in gaming contests.
 
 ## Source Code:
 ## [ Client Side Code](https://github.com/sahosskhan/Contes-Buddy-Client)
@@ -57,7 +57,7 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 - Firebase and JWT authentication for secure user authentication.
 
 ### Leaderboard
-- On the Base Of the contest winner's total wining money this leaderboard ranks up and shows the top person. 
+- On the Base Of the contest winner's total winning money this leaderboard ranks up and shows the top person. 
 
 
 
@@ -91,11 +91,11 @@ Contest Hub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project des
 ## Installation
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/contest-hub.git
+    git clone https://github.com/sahosskhan/Contes-Buddy-Client.git
     ```
 2. Navigate to the project directory:
     ```
-    cd contest-hub
+    cd Contes-Buddy-Client
     ```
 3. Install dependencies:
     ```
