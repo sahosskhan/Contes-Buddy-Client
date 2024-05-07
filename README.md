@@ -1,7 +1,7 @@
-# Contest Buddy - Gaming Contest Creation Platform
+# Contes Buddy - Gaming Contest Creation Platform
 
 ## Description
-Contest Buddy  is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to create and manage gaming contests. It provides a platform for administrators, contest creators, and users to efficiently manage and participate in contests. With features like user profile management, contest creation and management, a community section, and secure payment methods, Contest Hub aims to be a comprehensive solution for organizing and participating in gaming contests.
+Contes Buddy  is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to create and manage gaming contests. It provides a platform for administrators, contest creators, and users to efficiently manage and participate in contests. With features like user profile management, contest creation and management, a community section, and secure payment methods, Contest Hub aims to be a comprehensive solution for organizing and participating in gaming contests.
 
 ## Source Code:
 ## [ Client Side Code](https://github.com/sahosskhan/Contes-Buddy-Client)
